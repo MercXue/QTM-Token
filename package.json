@@ -1,0 +1,22 @@
+{
+  "name": "quantumico",
+  "version": "1.0.0",
+  "description": "ICO of QTM token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AniketEngg@bitbucket.org/AniketEngg/quantumico.git"
+  },
+  "keywords": [
+    "ERC20"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/AniketEngg/quantumico#readme"
+}
