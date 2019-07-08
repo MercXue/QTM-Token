@@ -70,7 +70,7 @@ contract QTMCrowdsale is Ownable {
         } else if(soldTokens >= 65000000 && soldTokens < 110000000){
             return 21; // 30% discount from 65,000,000 to total 110,000,000, rate will be .0021 ETH per token
         } else {
-            return 30; // No discount from 110,000,000 to total 120,000,000, rate will be .0030 ETH per token
+            return 30; // No discount from 110,000,000 to total 125,000,000, rate will be .0030 ETH per token
         }
     }
 
