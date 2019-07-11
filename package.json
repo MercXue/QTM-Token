@@ -8,31 +8,20 @@
   },
   "scripts": {
     "compile": "truffle compile",
-    "ganache:dev": "node_modules/.bin/ganache-cli -i 1111 --gasLimit 50000000000"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://AniketEngg@bitbucket.org/AniketEngg/quantumico.git"
+    "merge": "sol-merger \"./contracts/*.sol\" ./flat",
+    "test": "ganache-cli -e 1000000 & truffle test"
   },
   "keywords": [
     "ERC20"
   ],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/AniketEngg/quantumico#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.6",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "openzeppelin-test-helpers": "^0.4.0"
   },
   "devDependencies": {
-    "ganache-cli": "^6.4.4"
+    "ganache-cli": "^6.4.4",
+    "sol-merger": "^0.1.4"
   }
 }
